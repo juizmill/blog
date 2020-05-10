@@ -1,0 +1,382 @@
+/*!
+Theme Name: Escrever Código
+Theme URI: http://underscores.me/
+Author: Jesus Vieira
+Author URI: http://underscores.me/
+Description: Custom theme: Escrever Código, developed by Jesus Vieira
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: escrever-codigo
+categories: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    color: #161b3d;
+}
+
+a {
+    color: #161b3d;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+p {
+    color: #161b3d;
+    margin: 10px;
+}
+
+/* MENU */
+#span-top {
+    width: 100%;
+    height: 7px;
+    display: block;
+    background-color: blueviolet;
+}
+
+header {
+    border-bottom: 1px solid #8a2be221;
+    margin-bottom: 65px;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.header-content h1 {
+    font-size: 1.5rem;
+}
+
+.header-content h1 a {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.header-content .menu {
+    display: flex;
+}
+
+.header-content .menu li {
+    margin-left: 10px;
+}
+
+.header-content .menu li a {
+    display: block;
+    padding: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(0,0,0,.6);
+    background: #fff;
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+    -webkit-transition: all 0.20s ease;
+    transition: all 0.20s ease;
+}
+
+.header-content .menu li a:hover, .header-content .menu li a:active  {
+    color: rgba(255, 255, 255);
+    background: blueviolet;
+}
+
+/* Content home */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.content article {
+    border-bottom: 1px solid rgb(236, 233, 233);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.content article:last-child {
+    border-bottom: none;
+}
+
+.content article .article-content {
+    height: 150px;
+}
+
+.content article .article-content .thumbnail {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    border-right: 1px dotted rgb(236, 233, 233);
+}
+
+.content article .article-content div {
+    padding: 10px;
+}
+
+.content article .article-content a {
+    color: rgb(75, 75, 75);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+
+.content article .article-content a:hover {
+    color: rgba(75, 75, 75, 0.767);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+
+.content article .article-content div h2 {
+    font-size: 1.5rem;
+    line-height: 27px;
+}
+
+.content article .article-content div p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/*Content show post*/
+.categories, .tags {
+    width: 100%;
+}
+
+.categories span, .tags span {
+    display: block;
+    color: #aaaab0;
+    font-size: 0.9rem;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #f7f3f3;
+}
+
+.categories ul, .tags ul, .categories span, .tags span {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.categories ul li, .tags ul li {
+    display: inline-block;
+}
+
+.categories ul li a, .tags ul li a {
+    color: #161b3d;
+    background-color: #f4f4f4;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 2px 1px 0;
+    padding: 4px 10px;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.categories ul li a:hover, .tags ul li a:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.content-header h1 {
+    width: 100%;
+    display: block;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    font-size: 5rem;
+    line-height: 77px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.content-header .author {
+    display: block;
+    padding-top: 50px;
+}
+
+.content-header .author a {
+    font-weight: 600;
+}
+
+.content-header .author time {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.post-featured-image {
+    width: 100%;
+    max-height: 690px;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.post-featured-image img {
+    max-width: 100%;
+}
+
+.content-post {
+
+}
+
+#comments {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#comments .comment-list {
+    padding: 0;
+}
+
+#comments ol li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted rgba(177, 176, 176, 0.295);
+}
+
+#comments ol li .comment-awaiting-moderation {
+    padding: 10px;
+    display: block;
+    background-color: #ffff006b;;
+}
+
+#comments .reply a {
+    color: crimson;
+}
+
+#comments .children {
+    background-color: #bfbfbf1c;
+    padding-left: 20px;
+}
+
+#comments .children li {
+    border: none;
+}
+
+#respond h3 {
+    font-size: 2rem;
+}
+
+#respond form label {
+    display: block;
+}
+
+#respond form label .required, #respond form .comment-notes .required {
+    color: brown;
+}
+
+#respond form input, #respond form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+#respond form textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+#respond form .comment-form-cookies-consent label {
+    display: inline;
+}
+
+#respond form #wp-comment-cookies-consent {
+    width: 25px;
+}
+
+#respond form #submit {
+    width: 100%;
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: blueviolet;
+    -webkit-transition: all 0.20s ease;
+    transition: all 0.20s ease;
+}
+
+#respond form #submit:hover {
+    background-color: rgb(74, 17, 128);
+}
+
+footer {
+    font-size: 1rem;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+@media(max-width: 415px) {
+    .header-content .menu li:first-child {
+        display: none;
+    }
+
+    .content article {
+        padding: 0;
+    }
+
+    .content article .article-content {
+        height: 100%;
+    }
+
+    .content article .article-content .thumbnail {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /*Content show post*/
+    .content-header h1 {
+        font-size: 3rem;
+        line-height: 48px;
+    }
+}
+
+@media(max-width: 700px) {
+    .header-content h1 {
+        padding-left: 10px;
+    }
+    .categories ul, .categories span, .tags span {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 800px) {
+    .content {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .header-content h1 {
+        padding-left: 10px;
+    }
+    .categories ul, .categories span, .tags span {
+        padding-left: 10px;
+    }
+}
