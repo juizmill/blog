@@ -11,3 +11,7 @@ register_nav_menus(
         'social' => __( 'Social Links Menu', 'escrevercodigo' ),
     )
 );
+
+add_action( 'wp_print_styles', function () {
+    wp_dequeue_style( 'wp-block-library' );
+}, 100 );
