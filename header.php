@@ -20,6 +20,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/img/faveicon/favicon-16x16.png">
 
     <?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/libs/css/prism.css">
 </head>
 
 <body>
