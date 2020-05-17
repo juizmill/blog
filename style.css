@@ -1,10 +1,10 @@
 /*!
-Theme Name: Escrever Código
+Theme Name: Escrever Codigo
 Theme URI: http://underscores.me/
 Author: Jesus Vieira
 Author URI: http://underscores.me/
 Description: Custom theme: Escrever Código, developed by Jesus Vieira
-Version: 1.0.0
+Version: 1.0.9
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: escrever-codigo
@@ -41,6 +41,8 @@ a:hover {
 p {
     color: #161b3d;
     margin: 10px;
+    display: block;
+    width: 100%;
 }
 
 /* MENU */
@@ -379,4 +381,53 @@ footer {
     .categories ul, .categories span, .tags span {
         padding-left: 10px;
     }
+}
+
+.wp-block-code {
+    width: 100%;
+}
+
+.wp-block-table {
+    overflow-x:auto;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wp-block-table table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+}
+.wp-block-table table thead tr {
+    font-weight: 600;
+}
+.wp-block-table table {
+  width: 100%;
+  text-align: left;
+}
+.wp-block-table table td, .wp-block-table table th {
+  padding: 6px 4px;
+}
+.wp-block-table table tbody td {
+  font-size: 1rem;
+}
+.wp-block-table table tr:nth-child(even) {
+  background: #F2F2F2;
+}
+.wp-block-table table thead {
+  background: #DCE1E7;
+  border-bottom: 1px solid #000000;
+}
+.wp-block-table table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+.wp-block-table table tfoot td {
+  font-size: 1rem;
 }

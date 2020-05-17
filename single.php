@@ -33,7 +33,7 @@
 
             <div class="post-featured-image">
                 <?php if (has_post_thumbnail()): ?>
-                <img src="<?php get_the_post_thumbnail_url(the_ID(), 'large') ?>" alt="<?php the_title(); ?>">
+                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large') ?>" alt="<?php the_title(); ?>">
                 <?php else: ?>
                     <img src="https://picsum.photos/2200/1125" alt="<?php the_title(); ?>">
                 <?php endif; ?>
